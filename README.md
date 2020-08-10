@@ -16,6 +16,9 @@ After I used the example that are together library
 
 <img src="https://github.com/mariliahoshino/Protocol_CAN/blob/master/Picture/install_library_03.png?raw=true" >
 
+Electric connection
+<img src="https://github.com/mariliahoshino/Protocol_CAN/blob/master/Picture/schematic.png?raw=true">
+
 This image show the boards workings
 <img src="https://github.com/mariliahoshino/Protocol_CAN/blob/master/Picture/working_01.png?raw=true" height="600" >
 
