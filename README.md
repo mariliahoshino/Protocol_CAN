@@ -48,3 +48,5 @@ https://www.fernandok.com/2018/07/protocolo-can-yes-we-can.html <br>
 https://github.com/sandeepmistry/arduino-CAN <br>
 
 https://circuitdigest.com/microcontroller-projects/using-classic-bluetooth-in-esp32-and-toogle-an-led <br>
+
+https://web.fe.up.pt/~ee96100/projecto/Tabela%20ascii.htm
