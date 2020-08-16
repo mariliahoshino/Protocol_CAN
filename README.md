@@ -22,6 +22,22 @@ Electric connection <br>
 This image show the boards workings
 <img src="https://github.com/mariliahoshino/Protocol_CAN/blob/master/Picture/working_01.png?raw=true" height="600" >
 
+
+for use a vehicle is necessary change the messages according to the library of your vehicle 
+
+In my case I need send 3 signals
+There are 
+
+###Signal 1 0x00 0x00 0x00 0x00 0x01 0x16 0x00 0x00
+###Signal 2 0x00 0x00 0x00 0x00 0x02 0x16 0x00 0x00
+###Signal 3 0x00 0x00 0x00 0x80 0x00 0x16 0x00 0x00
+
+For this need change the example to the attached file
+
+For your car is necessary know the libray for length and data to sent
+
+
+
 ### My Degree
 
 <a href="https://www.sp.senac.br/">   <img src="https://github.com/mariliahoshino/mariliahoshino/blob/master/School/logo_senac.png?raw=true" height="30" widht="400" > </a> &nbsp;Post graduation Quality of Software Engineering 
