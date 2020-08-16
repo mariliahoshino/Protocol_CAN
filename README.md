@@ -25,6 +25,10 @@ This image show the boards workings
 
 for use a vehicle is necessary change the messages according to the library of your vehicle 
 
+For this I used another ESP32 for receiver the signal and display in my cell phone via Bluetooth 
+
+After this I received 3 signals interesting for my
+
 In my case I need send 3 signals
 There are 
 
@@ -36,6 +40,9 @@ For this need change the example to the attached file
 
 For your car is necessary know the libray for length and data to sent
 
+After I change the file for sender the interesting signal
+
+In attachment there are file I used
 
 
 ### My Degree
