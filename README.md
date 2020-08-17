@@ -10,27 +10,25 @@ https://pt.aliexpress.com/item/32952650510.html <br>
 For install the library in Arduino IDE <br>
 <img src="https://github.com/mariliahoshino/Protocol_CAN/blob/master/Picture/install_library_01.png?raw=true"  > <br>
 
+Need install CAN by Sandeep<br>
 <img src="https://github.com/mariliahoshino/Protocol_CAN/blob/master/Picture/install_library_02.png?raw=true"  > <br>
 
 After I used the example that are together library <br>
-
 <img src="https://github.com/mariliahoshino/Protocol_CAN/blob/master/Picture/install_library_03.png?raw=true" > <br>
 
 Electric connection test communication <br>
 <img src="https://github.com/mariliahoshino/Protocol_CAN/blob/master/Picture/schematic.png?raw=true"> <br>
 
-This image show the boards workings
+This image show the boards workings<br>
 <img src="https://github.com/mariliahoshino/Protocol_CAN/blob/master/Picture/working_01.png?raw=true" height="600" >
 
 
-for use a vehicle/machine is necessary change the messages according to the library of your vehicle/machine
+for use a vehicle/machine is necessary change the messages according to the library of your vehicle/machine <br>
 
-For this I used another ESP32 for receiver the signal and display in my cell phone via Bluetooth 
+For this I used another ESP32 for receiver the signal and display in my cell phone via Bluetooth <br>
 
-After this I received 3 signals interesting for mine
-
-In my case I need send 3 signals <br>
-There are 
+After this I received 3 signals interesting for me, and send these 3 signals after<br>
+There are <br>
 
 ### Signal 1: length 8 id 0x185  data 0x00 0x00 0x00 0x00 0x01 0x16 0x00 0x00 <br>
 ### Signal 2: length 8 id 0x185  data 0x00 0x00 0x00 0x00 0x02 0x16 0x00 0x00 <br>
