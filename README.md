@@ -23,13 +23,13 @@ This image show the boards workings
 <img src="https://github.com/mariliahoshino/Protocol_CAN/blob/master/Picture/working_01.png?raw=true" height="600" >
 
 
-for use a vehicle is necessary change the messages according to the library of your vehicle 
+for use a vehicle/machine is necessary change the messages according to the library of your vehicle/machine
 
 For this I used another ESP32 for receiver the signal and display in my cell phone via Bluetooth 
 
-After this I received 3 signals interesting for my
+After this I received 3 signals interesting for mine
 
-In my case I need send 3 signals
+In my case I need send 3 signals <br>
 There are 
 
 ### Signal 1: length 8 id 0x185  data 0x00 0x00 0x00 0x00 0x01 0x16 0x00 0x00 <br>
@@ -38,7 +38,7 @@ There are
 
 For this need change the example to the attached file
 
-For your car is necessary know the libray for length and data to sent
+For your car/machine is necessary know the libray for length and data to sent
 
 After I change the file for sender the interesting signal
 
