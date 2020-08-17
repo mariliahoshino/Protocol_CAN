@@ -42,8 +42,9 @@ For your car is necessary know the libray for length and data to sent
 
 After I change the file for sender the interesting signal
 
-In attachment there are file I used
+In attachment there are file I used <br>
 
+<img src="https://github.com/mariliahoshino/Protocol_CAN/blob/master/Picture/circuit.png?raw=true" widht="600"> <br>
 
 ### My Degree
 
@@ -72,4 +73,6 @@ https://github.com/sandeepmistry/arduino-CAN <br>
 
 https://circuitdigest.com/microcontroller-projects/using-classic-bluetooth-in-esp32-and-toogle-an-led <br>
 
-https://web.fe.up.pt/~ee96100/projecto/Tabela%20ascii.htm
+https://assets.vector.com/cms/content/products/VN16xx/docs/VN1600_Interface_Family_Manual_EN.pdf  page. 45 <br>
+
+https://web.fe.up.pt/~ee96100/projecto/Tabela%20ascii.htm <br>
