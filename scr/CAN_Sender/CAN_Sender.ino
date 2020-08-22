@@ -26,14 +26,14 @@ void loop() {
   Serial.println("Sending data 1 ");
 
   CAN.beginPacket(0x185);  //389 dec
-  CAN.write(0x00);
-  CAN.write(0x00);
-  CAN.write(0x00);
-  CAN.write(0x00);
-  CAN.write(0x01);
-  CAN.write(0x16);
-  CAN.write(0x00);
-  CAN.write(0x00);
+  CAN.write(0x12);
+  CAN.write(0x34);
+  CAN.write(0x56);
+  CAN.write(0x78);
+  CAN.write(0x9A);
+  CAN.write(0xBC);
+  CAN.write(0xDE);
+  CAN.write(0xF0);
   CAN.endPacket();
 
   Serial.println("Sent data 1 \n");
@@ -43,15 +43,16 @@ void loop() {
   Serial.println("Sending data 2");
 
   CAN.beginPacket(0x185);
-  CAN.write(0x00);
-  CAN.write(0x00);
-  CAN.write(0x00);
-  CAN.write(0x00);
-  CAN.write(0x02);
-  CAN.write(0x16);
-  CAN.write(0x00);
-  CAN.write(0x00);
+  CAN.write(0x12);
+  CAN.write(0x34);
+  CAN.write(0x56);
+  CAN.write(0x78);
+  CAN.write(0x9A);
+  CAN.write(0xBC);
+  CAN.write(0xDE);
+  CAN.write(0xF1);
   CAN.endPacket();
+
 
   Serial.println("Sent data 2  \n");
 
@@ -61,15 +62,16 @@ void loop() {
   Serial.println("sending data 3");
 
   CAN.beginPacket(0x185);
-  CAN.write(0x00);
-  CAN.write(0x00);
-  CAN.write(0x00);
-  CAN.write(0x80);
-  CAN.write(0x00);
-  CAN.write(0x16);
-  CAN.write(0x00);
-  CAN.write(0x00);
+  CAN.write(0x12);
+  CAN.write(0x34);
+  CAN.write(0x56);
+  CAN.write(0x78);
+  CAN.write(0x9A);
+  CAN.write(0xBC);
+  CAN.write(0xDE);
+  CAN.write(0xF2);
   CAN.endPacket();
+
 
   Serial.println("sent data 3\n");
 
